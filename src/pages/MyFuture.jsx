@@ -14,7 +14,7 @@ const MyFuture = () => {
           </div>
           <div className="timeline-item">
             <h3>Крок 2: Перша робота</h3>
-            <p>Отримання позиції Junior посади у ІТ компанії.</p>
+            <p>Отримання позиції Junior розробника у ІТ компанії.</p>
           </div>
           <div className="timeline-item">
             <h3>Крок 3: Захоплення всього світу.</h3>

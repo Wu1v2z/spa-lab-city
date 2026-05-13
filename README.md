@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 🚀 React SPA Портфоліо
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Це односторінковий веб-додаток (Single Page Application), створений за допомогою React. Проєкт слугує як інтерактивне особисте портфоліо, що презентує мене як розробника-початківця, мої цілі, а також інформацію про моє рідне місто.
 
-## Available Scripts
+## ✨ Головний функціонал
 
-In the project directory, you can run:
+- **Клієнтська маршрутизація:** Швидкий перехід між сторінками без перезавантаження браузера за допомогою `react-router-dom`.
+- **Робота з API:** Динамічне отримання даних про поточну погоду в місті Умань за допомогою `axios` та відкритого Open-Meteo API.
+- **Зміна тем:** Можливість перемикання між світлою та темною темами. Обрана тема автоматично зберігається у `localStorage`.
+- **Адаптивність:** Інтерфейс коректно відображається як на десктопних, так і на мобільних пристроях.
 
-### `npm start`
+## 🛠️ Технологічний стек
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React** (useState, useEffect)
+- **React Router v6** (маршрутизація)
+- **Axios** (HTTP-запити)
+- **React Icons** (векторні іконки)
+- **CSS3** (стилізація, CSS-змінні для тем)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Структура проєкту
 
-### `npm test`
+- `/src/components` — перевикористовувані компоненти (`Header.jsx`, `Footer.jsx`).
+- `/src/pages` — компоненти сторінок:
+  - `AboutMe.jsx` — коротка інформація про мене, мої навички та проєкти.
+  - `MyCity.jsx` — інформація про місто Умань + віджет погоди.
+  - `MyFuture.jsx` — мої кар'єрні цілі та бачення майбутнього.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Як запустити проєкт локально
 
-### `npm run build`
+1. Склонуйте репозиторій на свій комп'ютер:
+   ```bash
+   git clone [https://github.com/Wu1v2z/spa-lab-city.git](https://github.com/Wu1v2z/spa-lab-city.git)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   Перейдіть у папку проєкту:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bash:
+cd ВАШ_РЕПОЗИТОРІЙ
+Встановіть усі необхідні залежності:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bash:
+npm install
+Запустіть сервер для розробки:
 
-### `npm run eject`
+Bash:
+npm start
+Відкрийте http://localhost:3000 у вашому браузері.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👤 Автор
+[Артур / Wu1v3z]
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: [Посилання на GitHub](https://github.com/Wu1v2z)

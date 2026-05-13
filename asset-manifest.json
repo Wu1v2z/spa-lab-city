@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/spa-lab-city/static/css/main.5b508ae5.css",
-    "main.js": "/spa-lab-city/static/js/main.b9656b10.js",
+    "main.js": "/spa-lab-city/static/js/main.3071732a.js",
     "index.html": "/spa-lab-city/index.html",
     "main.5b508ae5.css.map": "/spa-lab-city/static/css/main.5b508ae5.css.map",
-    "main.b9656b10.js.map": "/spa-lab-city/static/js/main.b9656b10.js.map"
+    "main.3071732a.js.map": "/spa-lab-city/static/js/main.3071732a.js.map"
   },
   "entrypoints": [
     "static/css/main.5b508ae5.css",
-    "static/js/main.b9656b10.js"
+    "static/js/main.3071732a.js"
   ]
 }
